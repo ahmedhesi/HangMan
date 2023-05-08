@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, Melvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: contents;
+    background-image: url(https://w0.peakpx.com/wallpaper/650/1020/HD-wallpaper-creepy-halloween-night-hangmans-rope-all-hallows-eve-gallows-bats-trees-sky-ravens-graves-strars-full-moon-halloween.jpg);
+
+}
+
+
+.flex-itm {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5vwin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

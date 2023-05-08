@@ -1,16 +1,23 @@
 /*----- constants -----*/
+const WORD_GUESSES = {
+    "TIGER"
+    "LION"
+    "ELEPHANT"
+    "TELEVISION"
+}
 
 
-	/*----- state variables -----*/
+
+/*----- state variables -----*/
 	let secretWord;
 	let results;
 	let correctGuess;
 	
-	/*----- cached elements  -----*/
+/*----- cached elements  -----*/
 
 
-	/*----- event listeners -----*/
+/*----- event listeners -----*/
 
 
-	/*----- functions -----*/
+/*----- functions -----*/
 
