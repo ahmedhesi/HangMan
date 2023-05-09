@@ -1,17 +1,23 @@
 /*----- constants -----*/
-const WORD_GUESSES = {
-    "TIGER"
-    "LION"
-    "ELEPHANT"
-    "TELEVISION"
+const WORD_BANK= {
+    "METEOR"
+    "SHOOTINGSTAR"
+    "MILKYWAY"
+    "GALAXY"
+    "PLUTO"
 }
+
+CONST MAX_WRONG_= 6
+
+
 
 
 
 /*----- state variables -----*/
 	let secretWord;
-	let results;
-	let correctGuess;
+	let playerWord;
+	let wrongGuesses;
+    let winner;
 	
 /*----- cached elements  -----*/
 
@@ -21,3 +27,8 @@ const WORD_GUESSES = {
 
 /*----- functions -----*/
 
+function initilize() {
+    secretWord = WORD_BANK[Math.floor(Math.random() * WORD_BANK.length)];
+    playerWord
+    
+}
