@@ -7,7 +7,7 @@ const WORD_BANK= [
     "PLUTO",
 ]
 
-CONST MAX_WRONG_= 6
+Const MAX_WRONG_GUESSES= 6;
 
 
 
@@ -32,4 +32,12 @@ function initilize() {
     playerWord = "_"; 
     wrongGuesses = [];
     winner = undefined;
+    render()
 }
+
+function render() {
+    renderResults() 
+    
+
+}
+
