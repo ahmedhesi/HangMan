@@ -1,11 +1,11 @@
 /*----- constants -----*/
-const WORD_BANK= {
-    "METEOR"
-    "SHOOTINGSTAR"
-    "MILKYWAY"
-    "GALAXY"
-    "PLUTO"
-}
+const WORD_BANK= [
+    "METEOR",
+    "SHOOTINGSTAR",
+    "MILKYWAY",
+    "GALAXY",
+    "PLUTO",
+]
 
 CONST MAX_WRONG_= 6
 
@@ -29,6 +29,7 @@ CONST MAX_WRONG_= 6
 
 function initilize() {
     secretWord = WORD_BANK[Math.floor(Math.random() * WORD_BANK.length)];
-    playerWord
-    
+    playerWord = "_"; 
+    wrongGuesses = [];
+    winner = undefined;
 }
