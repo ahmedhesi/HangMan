@@ -21,7 +21,7 @@ const MAX_WRONG_GUESSES= 6;
     let guessNum;
 	
 /*----- cached elements  -----*/
-const resultsEL = document.getElementById('game-result');
+const imgEL = document.getElementById('game-result');
 const emptyWordBank = document.querySelector("div");
 const guessWordEl = document.getElementById('guess-word');
 
@@ -60,6 +60,8 @@ function render() {
         if (guesses.includes(letter)) guessWordEl.children[idx].innerHTML = letter;
 
     });
+    imgEL.src = `spaceman-images/spaceman-${guessNum}.jpg`
+    // const imgPath = imgs/spaceman-0${wrongGuesses.length};
 }
 
 function checkWinner(){
@@ -67,7 +69,5 @@ function checkWinner(){
     if (secretWord.every(letter => guesses.includes(letter))) return "W"; 
     return null;
 }
-
-
 
 
