@@ -41,7 +41,16 @@ function initilize() {
 }
 
 function handleClick (evt) {
+    const letter = evt.target.innerContent;
+    if (evt.target.tagname !== "BUTTON")  {
+       return
+    }  if () {
+        
+    } else if () {
+        
+    }
     
+    render()   
 }
 
 function render() {
