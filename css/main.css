@@ -6,11 +6,31 @@
 body {
     height: 100vh;
     margin: 0;
-    display: contents;
-    background-image: url(https://media2.giphy.com/media/FlodpfQUBSp20/giphy.gif?cid=ecf05e47gppuimu8fgivn799dmnrnjvgep8cgrwooc3xa4zk&ep=v1_gifs_search&rid=giphy.gif&ct=g);
-    /* grid-template-rows:  */
-    background-color: red;
+     /* grid-template-rows:  */
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1004/238/497/night-tree-bear-girl-wallpaper-preview.jpg);
 }
+
+h1 {
+    font-size: 4vmin;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+p {
+font-size: 2vmin
+font-family: 'Times New Roman', Times, serif;
+color: red; 
+
+}
+
+div{
+    color: greenyellow;
+    
+}
+
+
 
 
 
