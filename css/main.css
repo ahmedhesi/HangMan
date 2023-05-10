@@ -27,8 +27,37 @@ color: red;
 
 div{
     color: greenyellow;
-    
+
 }
+
+#guess-word {
+    display: flex;
+    justify-content: space-between;
+    /* width: 40vw; */
+    height: 10vh;
+    margin: 80px;
+
+}
+
+#guess-word > div {
+    width: 80px;
+    height: 10vh;
+    /* background: red; */
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+} 
+
+.letter {
+    border-bottom: 2px solid red;
+
+}
+
+
+
 
 
 
