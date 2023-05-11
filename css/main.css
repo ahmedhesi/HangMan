@@ -14,7 +14,7 @@ h1 {
     font-size: 4vmin;
     color: blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    text-align: center;
 }
 
 
@@ -22,6 +22,7 @@ p {
 font-size: 2vmin
 font-family: 'Times New Roman', Times, serif;
 color: red; 
+text-align: center;
 
 }
 
@@ -36,7 +37,7 @@ div{
     /* width: 40vw; */
     height: 10vh;
     margin: 80px;
-
+   
 }
 
 #guess-word > div {
@@ -48,6 +49,7 @@ div{
     justify-content: center;
     align-items: center;
     margin: 10px;
+    
 
 } 
 
@@ -56,6 +58,10 @@ div{
                                    
 }
 
+ img {
+    margin-left: auto; 
+    margin-right: auto;
+ }
 
 
 

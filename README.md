@@ -11,7 +11,8 @@ A description of your game. Background info of the game is a nice touch.
 - JavaScript
 - HTML
 - CSS
-- CardStarter CSS Library
+- VScode
+ 
 
 # Getting Started
 

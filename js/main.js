@@ -24,18 +24,24 @@ const MAX_WRONG_GUESSES= 6;
 const imgEL = document.getElementById('game-result');
 const emptyWordBank = document.querySelector("div");
 const guessWordEl = document.getElementById('guess-word');
+const playAgainBtn = document.getElementById('play');
 
 /*----- event listeners -----*/
-document.getElementById("letters").addEventListener("click", handleClick)
+document.getElementById("letters").addEventListener("click", handleClick);
+playAgainBtn.addEventListener("click", function(){
+    guessWordEl.innerHTML = " " 
+    initialize()
+});
 
 /*----- functions -----*/
-initilize()
-function initilize() {
+initialize()
+function initialize() {
     secretWord = WORD_BANK[Math.floor(Math.random() * WORD_BANK.length)].toUpperCase().split("");
+    console.log(secretWord)
     guesses = [];
     guessNum = 0 
     winner = undefined;
-    render()
+    render();
 }
 
 function handleClick (evt) { 
@@ -44,8 +50,7 @@ function handleClick (evt) {
     guesses.push(letter)
     if(!secretWord.includes(letter)) guessNum += 1
     winner = checkWinner();
-    console.log(winner)
-    render() 
+    render();
 }
 
 function render() {
