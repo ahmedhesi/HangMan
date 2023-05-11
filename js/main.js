@@ -25,6 +25,7 @@ const imgEL = document.getElementById('game-result');
 const emptyWordBank = document.querySelector("div");
 const guessWordEl = document.getElementById('guess-word');
 const playAgainBtn = document.getElementById('play');
+const guessesRemainingEl = document.getElementById('guess-count');
 
 /*----- event listeners -----*/
 document.getElementById("letters").addEventListener("click", handleClick);
@@ -66,7 +67,8 @@ function render() {
 
     });
     imgEL.src = `spaceman-images/spaceman-${guessNum}.jpg`
-    // const imgPath = imgs/spaceman-0${wrongGuesses.length};
+
+    guessesRemainingEl.innerText = `${guessNum}`
 }
 
 function checkWinner(){
