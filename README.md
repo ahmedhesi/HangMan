@@ -1,6 +1,9 @@
 # SpaceMan
 Hangman is a classic word guessing game that has entertained people for generations. The game revolves around solving a mystery word by guessing individual letters.
 
+                   
+myGameLink: https://ahmedhesi.github.io/spaceman/
+
 # Screenshots
 
 <img src="https://i.imgur.com/kL1IwEi.png">
@@ -17,7 +20,7 @@ Hangman is a classic word guessing game that has entertained people for generati
 
 # Getting Started
 
-
+Website Link: https://ahmedhesi.github.io/spaceman/
 
 Rules of game
 1. Choose any letter to make your first guess.
