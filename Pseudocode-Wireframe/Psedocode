@@ -1,22 +1,13 @@
- Spaceman
- 6 words All Space related words
- Select a word to be guessed.
-Set the maximum number of allowed incorrect guesses.
-Initialize a variable to count the number of incorrect guesses made.
-Create an empty list to store the letters guessed by the player.
-Create a loop that continues until the player either guesses the word correctly or exceeds the maximum number of incorrect guesses.
-Inside the loop, display the current state of the word to the player. Show underscores for unguessed letters and reveal correctly guessed letters.
-Prompt the player to enter a letter.
-Validate the input:
-Check if the input is a single letter.
-Check if the letter has already been guessed before.
-Add the guessed letter to the list of guessed letters.
-Check if the guessed letter is in the word:
-If it is, update the displayed word to reveal the correctly guessed letter(s).
-If it is not, increment the count of incorrect guesses.
-Check if the player has won:
-If all the letters in the word have been guessed, display a victory message and end the game.
-Check if the player has lost:
-If the number of incorrect guesses exceeds the maximum allowed guesses, display a defeat message and end the game.
-Repeat the loop until the game ends.
-End the game.
+Spaceman
+
+1. A secret word is randomly selected from the predefined WORD_BANK, and the player is presented with empty spaces representing the letters of the word.
+
+2. Click on any letter button on the screen to make a guess. If the letter is in the secret word, the letter appears in its correct position on the game board. If the letter is not in the word, a portion of the hangman figure is erased off the screen.
+
+3. The game ends when the player guesses the secret word correctly or reaches the maximum number of wrong guesses allowed (MAX_WRONG_GUESSES).
+
+4. If the player guesses the secret word correctly, the player wins the game. If the player runs out of guesses before guessing the word, the player loses.
+
+5. The player can start a new game by clicking the "Play Again" button.
+
+That's it! Have fun playing SpaceMan
