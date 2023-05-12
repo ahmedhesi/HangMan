@@ -2,7 +2,7 @@ Spaceman
 
 1. A secret word is randomly selected from the predefined WORD_BANK, and the player is presented with empty spaces representing the letters of the word.
 
-2. Click on any letter button on the screen to make a guess. If the letter is in the secret word, the letter appears in its correct position on the game board. If the letter is not in the word, a portion of the hangman figure is erased off the screen.
+2. Click on any letter button on the screen to make a guess. If the letter is in the secret word, the letter appears in its correct position on the game board. If the letter is not in the word, a portion of the spaceman figure is erased off the screen.
 
 3. The game ends when the player guesses the secret word correctly or reaches the maximum number of wrong guesses allowed (MAX_WRONG_GUESSES).
 

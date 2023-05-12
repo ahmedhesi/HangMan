@@ -1,32 +1,29 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    background-color: black;
 }
 
 body {
     height: 100vh;
     margin: 0;
-     /* grid-template-rows:  */
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/1004/238/497/night-tree-bear-girl-wallpaper-preview.jpg);
 }
 
 h1 {
     font-size: 4vmin;
-    color: blue;
+    color: yellow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-
 p {
-font-size: 2vmin
-font-family: 'Times New Roman', Times, serif;
-color: red; 
-text-align: center;
+    font-size: 2vmin font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
 
 }
 
-div{
+div {
     color: greenyellow;
 
 }
@@ -37,10 +34,10 @@ div{
     /* width: 40vw; */
     height: 10vh;
     margin: 80px;
-   
+
 }
 
-#guess-word > div {
+#guess-word>div {
     width: 80px;
     height: 10vh;
     /* background: red; */
@@ -49,24 +46,37 @@ div{
     justify-content: center;
     align-items: center;
     margin: 10px;
-    
-
-} 
+}
 
 .letter {
     border-bottom: 2px solid red;
-                                   
 }
 
- img {
-    margin-left: auto; 
-    margin-right: auto;
- }
+img#game-result {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
+#win-lose {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
 
+#letters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#play {
+    display: block;
+    margin: 0 auto;
+    color: yellow;
+}
 
-
-
-
-
+main>button {
+    color: yellow;
+}
