@@ -1,11 +1,11 @@
 # SpaceMan
 Hangman is a classic word guessing game that has entertained people for generations. The game revolves around solving a mystery word by guessing individual letters.
 
-# Screenshot
+# Screenshots
 
 <img src="https://i.imgur.com/kL1IwEi.png">
-<img src="url to your image on imgur">
-<img src="url to your image on imgur">
+<img src="https://i.imgur.com/ySKwYlQ.png">
+<img src="https://i.imgur.com/1leXTga.png">
 
 # Technologies Used
 
@@ -17,11 +17,16 @@ Hangman is a classic word guessing game that has entertained people for generati
 
 # Getting Started
 
-[Click to View Project Planning](your Trello url here)
-[Click to Play Connect Four!](your deployment url here)
+
+
+Rules of game
+1. Choose any letter to make your first guess.
+2. Keep clicking letter until you get the full word to win or space man dissapears meaning you lose!
+3. Click play again button to replay.
+
 
 # Next Steps
 
-- Future enhancement one...
-- Future enhancement two...
+- Mobile app
+- Countdown
 
